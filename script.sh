@@ -3,8 +3,6 @@
 set -o errexit
 
 poetry install
-pip install django
-poetry add gunicorn
-
-python manage.py collectstatic --no-input
-python manage.py migrate
+pip install setuptools
+python3 manage.py collectstatic --no-input
+python3 manage.py migrate
