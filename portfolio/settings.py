@@ -34,13 +34,12 @@ if RENDER_EXTERNAL_HOSTNAME:
 # Application definition
 
 INSTALLED_APPS = [
-    'portweb.apps.RenderConfig',
+    'portweb.apps.PortwebConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'portweb',
 ]
 
 MIDDLEWARE = [
