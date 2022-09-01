@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('portweb.urls'))
 ]
+
+handler404 = 'portweb.views.error_404'
