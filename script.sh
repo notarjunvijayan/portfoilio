@@ -3,6 +3,7 @@
 set -o errexit
 
 poetry install
+pip install render
 pip install django
 pip install setuptools
 
