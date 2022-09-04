@@ -19,7 +19,8 @@ from django.urls import path,include
 #portfolio hello
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('portweb.urls'))
+    path('', include('portweb.urls')),
+    path('/port2',include('port2.urls')),
 ]
 
 handler404 = 'portweb.views.error_404'
