@@ -23,4 +23,3 @@ urlpatterns = [
     path('port2/',include('port2.urls')),
 ]
 
-handler404 = 'portweb.views.error_404'

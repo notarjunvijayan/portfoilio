@@ -35,7 +35,7 @@ if RENDER_EXTERNAL_HOSTNAME:
 
 INSTALLED_APPS = [
     'portweb.apps.PortwebConfig',
-    'port2.apps.Port2Config',
+    'port2',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
